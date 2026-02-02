@@ -52,8 +52,6 @@ int main() {
 
         row += dir;
     }
-
-    // Read row-wise to get cipher text
     printf("Cipher Text: ");
     for (i = 0; i < rails; i++)
         for (j = 0; j < len; j++)
